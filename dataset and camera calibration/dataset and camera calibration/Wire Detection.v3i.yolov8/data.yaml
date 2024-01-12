@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['wire']
+
+roboflow:
+  workspace: indian-institute-of-technology-jodhpour
+  project: wire-detection-qeaxa
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/indian-institute-of-technology-jodhpour/wire-detection-qeaxa/dataset/3

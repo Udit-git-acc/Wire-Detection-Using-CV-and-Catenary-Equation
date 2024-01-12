@@ -1,0 +1,15 @@
+names:
+- cable
+- tower_lattice
+- tower_tucohy
+- tower_wooden
+nc: 4
+roboflow:
+  license: Public Domain
+  project: cable-detection-liolt
+  url: https://universe.roboflow.com/indian-institute-of-technology-jodhpour/cable-detection-liolt/dataset/2
+  version: 2
+  workspace: indian-institute-of-technology-jodhpour
+test: ../test/images
+train: Cable-detection-2/train/images
+val: Cable-detection-2/valid/images
